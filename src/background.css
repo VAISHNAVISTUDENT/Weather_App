@@ -1,0 +1,15 @@
+.outer-container {
+
+    background: url("C:\Users\HP\Desktop\coding_files\web development files\projects\Wheather_app\wheather_app\src\assets\carmine-savarese-KVVpx8M10OY-unsplash.jpg") no-repeat center center/cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background: #f0f0f0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+  }
+  

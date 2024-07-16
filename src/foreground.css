@@ -1,0 +1,128 @@
+.inner-container {
+    width: calc(90% - 50px); /* Adjust this value to change the margin */
+    height: calc(90% - 50px); /* Adjust this value to change the margin */
+    background: rgba(68, 66, 66, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    /* margin: 50px; */
+    /* margin-bottom: 50px; */
+    background: rgba(14, 14, 13, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+
+  }
+
+.sideBar{
+  width: 30%;
+  border: solid rgba(255, 255, 255, 0.322) 1px;
+  margin: 0px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  
+}
+
+button{
+  color: white !important;
+  /* background-color: rgba(255, 255, 255, 0.349) !important; */
+}
+
+.search-box{
+  margin: 5px;
+}
+h1{
+  color: white;
+}
+.other-side{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding: 50px;
+  /* align-items: center; */
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  color: white;
+
+}
+.info-item{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  color: white;
+  
+}
+i{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+.temp-container {
+  background: rgba(51, 51, 50, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.6px);
+-webkit-backdrop-filter: blur(13.6px);
+padding: 50px;
+}
+.about-city{
+color: white;
+padding: 20px;
+}
+.p{
+  color: rgba(247, 240, 240, 0.781) !important;
+}
+.fa-sun{
+  font-size: 50px;
+  color: rgb(209, 209, 95);
+}
+.info-item{
+  /* height: 10%;
+  width: 18%; */
+  background: rgba(51, 51, 50, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.6px);
+  -webkit-backdrop-filter: blur(13.6px);
+  padding: 30px;
+  
+}
+.fa-snowflake{
+  font-size: 100px;
+  float: right;
+}
+
+ h1 {
+  font-weight: lighter !important;
+}
+h2 {
+  font-weight: lighter !important;
+}
+h3 {
+  font-weight: lighter !important;
+}
+
+p{
+  color: rgb(255, 255, 255);
+}
