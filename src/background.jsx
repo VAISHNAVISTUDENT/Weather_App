@@ -33,17 +33,17 @@ export default function Background(){
         console.log(result);
         let videoUrl;
         if (result.temp < 10) {
-             videoUrl = 'src/assets/857032-hd_1920_1080_30fps.mp4'; 
+             videoUrl = 'https://res.cloudinary.com/dqoxgromg/video/upload/v1721155825/857032-hd_1920_1080_30fps_pcg007.mp4'; 
         } else if (result.temp < 30) {
             if (result.humidity > 70) {
-                 videoUrl = 'src/assets/3130376-uhd_3840_2160_24fps.mp4'; 
+                 videoUrl = 'https://res.cloudinary.com/dqoxgromg/video/upload/v1721155970/3130376-uhd_3840_2160_24fps_dc35sj.mp4'; 
             } else {
-                 videoUrl = 'src/assets/856171-hd_1920_1080_30fps.mp4'; 
+                 videoUrl = 'https://res.cloudinary.com/dqoxgromg/video/upload/v1721155812/856171-hd_1920_1080_30fps_vh946m.mp4'; 
                  
 
             }
         } else  {
-             videoUrl = 'src/assets/3568022-hd_1920_1080_24fps.mp4';  //heat
+             videoUrl = 'https://res.cloudinary.com/dqoxgromg/video/upload/v1721155831/3568022-hd_1920_1080_24fps_nhehfq.mp4';  //heat
         }
         let outerContainer = document.querySelector(".outer-container");
         
