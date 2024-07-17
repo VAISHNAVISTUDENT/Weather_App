@@ -103,7 +103,7 @@ export default function Background(){
 
                 <div className="info">
                 <p>
-                    {weatherInfo.city} is a city in {weatherInfo.state}. The minimum temperature in the city is currently {weatherInfo.temp_min}°C, while the maximum temperature reaches up to {weatherInfo.temp_max}°C. Despite these values, the temperature feels like {weatherInfo.feels_like}°C due to various atmospheric conditions. The ground level pressure is recorded at {weatherInfo.feels_like} hPa. Additionally, the weather data is based on the {weatherInfo.name} base station, located in the timezone {weatherInfo.timezone}. The cloud coverage in Mumbai is at {weatherInfo.cloud}%.
+                    {weatherInfo.city} is a city in {weatherInfo.state}. The minimum temperature in the city is currently {weatherInfo.temp_min}°C, while the maximum temperature reaches up to {weatherInfo.temp_max}°C. Despite these values, the temperature feels like {weatherInfo.feels_like}°C due to various atmospheric conditions. The ground level pressure is recorded at {weatherInfo.feels_like} hPa. Additionally, the weather data is based on the {weatherInfo.name} base station, located in the timezone {weatherInfo.timezone}. The cloud coverage in {weatherInfo.city} is at {weatherInfo.cloud}%.
                 
                 </p>
                 </div>
