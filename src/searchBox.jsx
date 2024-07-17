@@ -2,7 +2,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
 export default function Searchbox({updateInfo}){
-    const API_URL_COOR = "http://api.openweathermap.org/geo/1.0/direct";
+    const API_URL_COOR = "https://api.openweathermap.org/geo/1.0/direct";
     const API_URL = "https://api.openweathermap.org/data/2.5/weather"
     const API_KEY = "2fe4627ae169c4446a933bd82f465844"
 
